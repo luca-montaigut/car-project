@@ -1,0 +1,11 @@
+[project]
+name = "car-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]",
+    "openai>=1.51.2",
+    "ruff>=0.6.9",
+]
